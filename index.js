@@ -6,7 +6,7 @@ const app = express();
 app.get('/', (req,res) => {
 
     const userObj = {
-        slackUsername: 'Ismail Hudhayfah',
+        slackUsername: 'Hudhayfah',
         backend: true,
         age: 22,
         bio: 'I am Ismail Hudhayfah, a backend developer possionate in proferring solution to problems and working in a team to achieve the best possible outcome'
