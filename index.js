@@ -3,8 +3,8 @@ const express = require('express');
 
 const app = express();
 
-app.get('/', (req,res) => {
-    
+app.get('/bio', (req,res) => {
+
     const userObj = {
         slackUsername: 'Ismail Hudhayfah',
         backend: true,
